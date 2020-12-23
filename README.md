@@ -1,6 +1,10 @@
 # debug-midi
 Debug midi controllers
 
+## Please Note!
+
+Mido (the midi library this is based on) currently strips driver-level timestamps. The timestamps you see are printed out from python.  
+
 ## Usage - Examples
 
 Display general help (subcommands also support --help)
